@@ -1,3 +1,6 @@
+/*
+OK for browsing a single page of reddit.com/r/pics/
+*/
 function doit(){
     var a=document.getElementsByTagName("a");
     var d=document.createElement("div");
