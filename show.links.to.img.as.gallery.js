@@ -12,7 +12,7 @@ function doit(){
             z.push(imgurl);
         }
     }
-    d.style="background:#111;text-align:center;position:absolute;top:0px;max-width:100%;";
+    d.style="background:#111;text-align:center;position:absolute;top:0px;max-width:100%;z-index:99;";
     document.getElementsByTagName("body")[0].appendChild(d);
 }
 doit();
