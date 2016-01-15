@@ -7,7 +7,7 @@ function doit(){
         if((imgurl.match(/(png|jpg|gif)$/))&&(z.indexOf(imgurl)<0)){
             var img=document.createElement("img");
             img.src=imgurl;
-            img.style="border:4px solid #444;max-width:100%;max-height:800px;";
+            img.style="border:4px solid #444;max-width:100%;";
             d.appendChild(img);
             z.push(imgurl);
         }
