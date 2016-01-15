@@ -1,3 +1,6 @@
+/*
+This example searches the current page for <a> elements that contain magnet links and posts the magnet link to i2psnark
+*/
 function doit(){
     var torrentclientapi="http://localhost:7657/i2psnark/_post";
     var a=document.getElementsByTagName("a");
